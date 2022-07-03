@@ -49,8 +49,6 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
     /*Es una palabra clave que fuerza a todos los caracteres a ser convertidos a mayúsculas.*/
     text-transform:uppercase;
     font-weight: 900;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .content .row p{
@@ -59,8 +57,6 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
     text-transform: uppercase;
     /*La propiedad  CSS line-height establece la altura de una casilla remarcada por líneas. Comúnmente se usa para establecer la distancia entre líneas de texto*/
     line-height: 26px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 @media only screen and  (max-width: 900px) {
@@ -75,8 +71,8 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
   }
   @media only screen and (min-width : 901px) {
     .content .row p{
-        padding-left: 30px;
-        padding-right: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
         font-size: 14px;
     }
     }
