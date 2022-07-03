@@ -59,7 +59,7 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
     line-height: 26px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
 
     .content .row h1{
         margin-left:15px;
