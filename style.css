@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.content{
+    /*100% del total de la pantalla*/
+    height: 100vh;
+    /*Ocupa el todo el ancho*/
+    width: 100%;
+    /*Modifica el tamaño para que entren todos*/
+    display: flex;
+    /*Centra los elemtentos del flex en el medio*/
+    align-items: center;
+    /* Distribuir items uniformemente
+El primer item al inicio, el último al final */
+    justify-content: space-between;
+    /*hidden; hace que el texto que sobresalga por encima del div no sea visible.*/
+    overflow: hidden;
+}
+.content video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    /*cover: El contenido completará el alto y ancho del contenedor pero cortando información si es necesario.*/
+    object-fit: cover;
+    /*
+El elemento no reacciona a los eventos de puntero.*/
+    pointer-events: none;
+    filter: brightness(60%);
+    
+}
+.content .row{
+    z-index: 1;
+    /*Esto quiere decir que cuando el valor que nosotros especifiquemos en width sea mayor que max-width, este último sobrescribirá el ancho del elemento al valor que tiene max-width. Así max-width define el ancho máximo que un elemento*/
+    max-width: 900px;
+    /*auto es reemplazado por algún valor apropiado. Por ejemplo, puede usarse para centrar horizontalmente un elemento bloque.
+div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
+    margin: auto;
+    text-align: center;
+}
+.content .row h1{
+    color: white;
+    font-size: 65px;
+    /*Es una palabra clave que fuerza a todos los caracteres a ser convertidos a mayúsculas.*/
+    text-transform:uppercase;
+    font-weight: 900;
+}
+
+.content .row p{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    /*La propiedad  CSS line-height establece la altura de una casilla remarcada por líneas. Comúnmente se usa para establecer la distancia entre líneas de texto*/
+    line-height: 26px;
+}
