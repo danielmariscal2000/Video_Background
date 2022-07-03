@@ -64,23 +64,19 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
 }
 
 @media only screen and  (max-width: 900px) {
-
     .content .row h1{
-        margin-left:15px;
-        margin-right:15px;
+        font-size: 40px;
     }
     .content .row p{
-        margin-left: 15px;
-        margin-right: 15px;
+        padding-left: 40px;
+        font-size: 14px;
+        padding-right: 40px;
     }
   }
   @media only screen and (min-width : 901px) {
-    .content .row h1{
-        margin-left:15px;
-        margin-right:15px;
-    }
     .content .row p{
-        margin-left: 15px;
-        margin-right: 15px;
+        padding-left: 30px;
+        padding-right: 40px;
+        font-size: 14px;
     }
     }
