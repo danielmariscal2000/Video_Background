@@ -64,14 +64,14 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
         font-size: 40px;
     }
     .content .row p{
-        padding-left: 15px;
+        padding-left: 30px;
         font-size: 14px;
         padding-right: 5px;
     }
   }
   @media only screen and (min-width : 901px) {
     .content .row p{
-        padding-left: 15px;
+        padding-left: 30px;
         padding-right: 5px;
         font-size: 14px;
     }
