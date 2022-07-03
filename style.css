@@ -65,7 +65,7 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
     }
     .content .row p{
         margin: auto;
-        padding-left: 1px;
+        padding-left: 15px;
         font-size: 14px;
         padding-right: 5px;
     }
