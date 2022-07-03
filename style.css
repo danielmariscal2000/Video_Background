@@ -67,7 +67,7 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
         margin: auto;
         padding-left: 5px;
         font-size: 14px;
-        padding-right: 40px;
+        padding-right: 5px;
     }
   }
   @media only screen and (min-width : 901px) {
