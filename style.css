@@ -64,6 +64,7 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
         font-size: 40px;
     }
     .content .row p{
+        margin: auto;
         padding-left: 5px;
         font-size: 14px;
         padding-right: 40px;
@@ -71,8 +72,13 @@ div { width:50%;  margin:0 auto; } centrará el div horizontalmente.*/
   }
   @media only screen and (min-width : 901px) {
     .content .row p{
+        margin: auto;
         padding-left: 5px;
         padding-right: 5px;
         font-size: 14px;
+    }
+    .content .row h1{
+        font-size: 40px;
+        margin: auto;
     }
     }
